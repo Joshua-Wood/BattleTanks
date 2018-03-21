@@ -73,3 +73,21 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Starter Content Excludes
+Content/StarterContent/HDRI/*
+Content/StarterContent/Maps/*
+Content/StarterContent/Architecture/*
+Content/StarterContent/Audio/*
+Content/StarterContent/Blueprints/*
+Content/StarterContent/Particles/*
+Content/StarterContent/Props/*
+Content/StarterContent/Shapes/*
+
+# We want to ignore the majority of the starter content, only excepting what we want
+Content/StarterContent/Textures/*
+Content/StarterContent/Materials/*
+
+# Start Content Includes
+!Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+!Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
